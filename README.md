@@ -32,7 +32,7 @@ Ensure you have the following installed:
 ### Installation
 
 1. **Clone the repository**:
-   git clone https://github.com/your_username\\\\\\\/age-gender-detector.git
+   (https://github.com/RNithishKumar18/Age-and-Gender-Detector.git)
    cd age-gender-detector
 
 
