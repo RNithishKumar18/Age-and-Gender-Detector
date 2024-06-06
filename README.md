@@ -36,33 +36,33 @@ Ensure you have the following installed:
    cd age-gender-detector
 
 
-#### Model Training
+# Model Training
 If you want to train the model from scratch, follow these steps:
 
    Download the UTKFace dataset from Kaggle.
 
    Extract the dataset and place the images in a directory named UTKFace within the project folder.
 
-Run the Jupyter Notebook:
+- Run the Jupyter Notebook:
     jupyter notebook Age_Gender_Detector.ipynb
 
    Follow the steps in the notebook to train the model. 
    The trained model will be saved as Age_Sex_Detection.h5.
 
-##### Running the GUI Application
+# Running the GUI Application
 Ensure you have the pre-trained model file Age_Sex_Detection.h5 in the project directory. If not, download the file and place it in the root directory.
 
-Run the GUI application:
+- Run the GUI application:
     python gui.py
 
 This will open a GUI window where you can upload an image and get the predicted age and gender.
 
-###### Using the Application
+# Using the Application
 - Upload an Image: Click the "Upload an Image" button and select an image file from your computer.
 - Detect Age & Gender: After uploading the image, click the "Detect Image" button to see the predicted age and gender displayed on the screen.
 
 
-###### Project Structure
+# Project Structure
 - Age_Gender_Detector.ipynb: Notebook for model training and evaluation.
 - gui.py: GUI script for detecting age and gender from images.
 - requirements.txt: List of required Python packages.
